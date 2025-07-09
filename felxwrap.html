@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Flex Wrap Exemple</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap; /* Permet le retour à la ligne */
+      gap: 20px; /* Espace entre les blocs */
+      padding: 20px;
+      background-color: #eaeaea;
+    }
+
+    .box {
+      flex: 0 0 200px; /* Ne grandit pas, ne rétrécit pas, largeur fixe de 200px */
+      height: 100px;
+      background-color: #2196F3;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">Bloc 1</div>
+    <div class="box">Bloc 2</div>
+    <div class="box">Bloc 3</div>
+    <div class="box">Bloc 4</div>
+    <div class="box">Bloc 5</div>
+    <div class="box">Bloc 6</div>
+  </div>
+
+</body>
+</html>
