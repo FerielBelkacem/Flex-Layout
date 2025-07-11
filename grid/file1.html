@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemple Grid 1</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr; /* 2 colonnes */
+      gap: 10px;
+    }
+
+    .box {
+      background-color: lightblue;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Colonne 1</div>
+    <div class="box">Colonne 2 (plus large)</div>
+  </div>
+</body>
+</html>
