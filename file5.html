@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: blue;
+            height: 500px;
+            width: auto;
+        }
+        .sub-container{
+            background-color: brown;
+            border-radius: 50px;
+            width: 100px;
+
+            
+        }
+     
+          @media(orientation: portrait){
+            .container{
+                 background-color: rgb(128, 128, 143);
+                 background-image: url(images/pexels-pranjall-kumar-150768-7208238.jpg);
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+            }
+            .sub-container{
+                color: blue;
+            }
+        }
+       
+        @media(orientation: landscape){
+            .container{
+                 background-color: rgb(128, 128, 143);
+                 background-image: url(images/pexels-dimitrisc-8821284.jpg);
+                 background-position: center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+            }
+            .sub-container{
+                color: blue;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">Bonjour</div>
+    </div>
+</body>
+</html>
